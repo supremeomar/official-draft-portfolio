@@ -4,6 +4,7 @@ body {
     color: dark;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .head-container {
     width: 1148px;
     height: 169px;
@@ -24,7 +25,8 @@ body {
 .links {
     width: 845px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
     
 }
 
@@ -34,7 +36,112 @@ body {
     margin-right: 20px;    
 }
 
-section {
-    display: flex;
-    justify-content: flex-end;
+.resume button {
+    
+    background: #A084DC;
+    border-radius: 999px;
+    box-shadow: #7a7af5 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    border: 0;
+    width: 200px;
+    height: 50px;
 }
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.content aside {
+    margin-left: 10%;
+    width: 800px;
+    height: 759px;
+    /* border: 5px solid green; */
+}
+
+.intro-message {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: flex-end;
+  
+}
+
+.intro-message h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    
+}
+
+.intro-message h1 {
+    font-size: 50px;
+    font-weight:  bold;
+}
+
+.intro-message p  {
+    font-size: small;
+}
+
+.intro-message h1, h3, p {
+    margin-bottom: 25px;
+}
+
+.intro-message button {
+    background: #A084DC;
+    border-radius: 999px;
+    box-shadow: #7a7af5 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-media img {
+    width: 45px;
+    margin: 20px 50px 50px 50px;
+
+}
+
+.social-media:hover img{
+    cursor:pointer;
+}
+
+
+
+
