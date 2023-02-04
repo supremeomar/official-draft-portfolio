@@ -1,8 +1,10 @@
 body {
-    background-image: linear-gradient(black, darkmagenta);
+    background: linear-gradient(black, darkmagenta);
+    background: radial-gradient(circle at bottom, darkmagenta 0, black 79%);
     color: white;
     color: dark;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 .head-container {
