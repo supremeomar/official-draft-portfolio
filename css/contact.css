@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(black, darkmagenta);
+    background: radial-gradient(circle at bottom, darkmagenta 0, black 79%);
+    color: white;
+    color: dark;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+}
+
+.main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-container {
+    background: #371642 ;
+    width: 1263px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.4;
+    border-radius: 40px;
+
+}
+
+.content-left , .content-right {
+    height: 522px;
+    width: 500px;
+    background-color: blue;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+
+
